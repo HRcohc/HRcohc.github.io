@@ -7,3 +7,41 @@ encoding: "utf-8"
 
 since: 2024
 author: Hch
+
+navs:
+  -
+    href: /
+    label: home
+  -
+    href: /categories/
+    label: categories
+  -
+    href: /archives/
+    label: archives
+    mobile-hidden: true
+  -
+    href: /fragments/
+    label: fragments
+  -
+    href: /wiki/
+    label: wiki
+  -
+    href: /links/
+    label: links
+    mobile-hidden: true
+  -
+    href: /about/
+    label: about
+
+index:
+    banner:
+        # 首页 banner 区文字颜色
+        color: "#fff"
+        # 首页导航栏文字颜色
+        nav-color: "rgba(255, 255, 255, .5)"
+        # 首页 banner 区背景颜色
+        background-color: "#4183c4"
+        # 首页 banner 区背景图片
+        # background-image: "/assets/images/octicons-bg.png"
+        # background-repeat: "no-repeat"
+        # background-size: "cover"
